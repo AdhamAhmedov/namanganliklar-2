@@ -1,0 +1,654 @@
+
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src:
+         url('../fonts/rubik-v12-latin-300.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-300.woff') format('woff'); 
+  }
+ 
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src:
+         url('../fonts/rubik-v12-latin-regular.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src:
+         url('../fonts/rubik-v12-latin-500.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-500.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    src:
+         url('../fonts/rubik-v12-latin-600.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-600.woff') format('woff'); 
+  }
+ 
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src:
+         url('../fonts/rubik-v12-latin-700.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-700.woff') format('woff'); 
+  }
+ 
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    src:
+         url('../fonts/rubik-v12-latin-800.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-800.woff') format('woff');
+  }
+ 
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    src:
+         url('../fonts/rubik-v12-latin-900.woff2') format('woff2'), 
+         url('../fonts/rubik-v12-latin-900.woff') format('woff'); 
+  }
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Rubik", sans-serif;
+
+}
+
+.container
+{
+
+    width: 1200px;
+    margin: 0 auto;
+     
+}
+
+/* site header  site header  site header  site header  site header  site header  site header  site header  */
+
+.site-header
+{
+    background: #F6F6F9;
+    height: 332px;
+}
+
+.site-logo
+{
+    width: 306px;
+    height: 33px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #295091;
+    background-color: #FFFFFF;
+}
+
+.site-header-top
+{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-list
+{
+list-style: none;
+display: flex;
+justify-items: left;
+}
+
+.header-list-item
+{
+    width: 90px;
+    height: 21px;   
+}
+
+.header-list-item strong
+{
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #285193;
+}
+
+.header-telegram-link
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 146px;
+height: 40px;
+padding: 10px 12px;
+margin-left: auto;
+text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+}
+
+.header-telegram-link:hover{
+
+    background: linear-gradient(90deg, red 15.07%, black 85.96%);
+}
+
+.header-bottom-list
+{
+width: 1200px;
+height: 40px;
+list-style: none;
+box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+background: #FFFFFF;
+border-radius: 5px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.header-bottom-link
+{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px; 
+    color: #515151;  
+}
+
+.header-bottom-link:hover
+{
+    box-shadow: 0px 10px 10px rgba(159, 159, 159, 0.20);
+}
+
+.image-header
+{
+    width: 1200px;
+    height: 99px;
+}
+
+/* ---------section-karantin----------------section-karantin----------------section-karantin----------------section-karantin------- */
+
+.corona-info
+{
+    list-style: none;
+}
+.corona-facts
+{
+    width: 1200px;
+    height: 133px;
+    display: flex;
+    list-style-type: none;
+    background: #F6F6F9;;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.local-information
+{
+    width: 1200px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.rectangle
+{
+    margin-left: 42px;
+    margin-right: 28px;
+}
+
+.local-information
+{
+   list-style: none;
+   display: flex;
+}
+
+.about-sardoba
+{
+    margin: 7px;
+    width: 386px;
+
+}
+
+.container-notification
+{
+    width: 1200px;
+    height: 91px;
+    background: rgba(239, 186, 84, 0.18);
+    text-align: center;
+    
+}
+
+.info-icon
+{
+    display: flex;
+    width: 1200px;
+    height: 91px;
+    background: rgba(239, 186, 84, 0.18);
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.info-icon h3
+{
+    margin-left: 20px;
+}
+
+.notification-link
+{
+    width: 264px;
+    height: 42px;
+    background-color: #fe5c28;
+    color: #ffffff;
+    margin-left: 320px;
+    border-radius: 5px;
+}
+
+
+/* -------Последние новости---------------Последние новости----------------Последние новости----------------Последние новости-- */
+
+.box
+{
+
+    display: flex;
+}
+
+.Последние-новости
+{
+    width: 782px;
+}
+
+.Последние-новости-list
+{
+    list-style: none;
+    padding: 0px;
+}
+
+.Последние-новости-list-item
+{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.Последние-новости-list-item-info
+{
+    align-items: initial;
+    margin-left: 19px;
+}
+
+.Последние-новости-list-item-info h5
+{
+    margin-top: 0;
+    font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+
+}
+
+.Последние-новости-list-item-info p
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+}
+
+.Последние-новости-list-item-info small
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.Последние-новости-list-item-info small img
+{
+
+margin-right: 5px;
+}
+
+
+.Последние-новости-link
+{
+    
+    width: 211px;
+height: 42px;
+margin: 0px auto;
+padding-left: 36px;
+padding-top: 10px;
+    background: #295093;
+    border-radius: 5px;
+}
+
+.Последние-новости-link a
+{
+    text-decoration: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #FFFFFF;
+
+}
+
+.Последние-новости-link:hover
+{
+    background: linear-gradient(90deg, red 15.07%, black 85.96%);
+}
+
+
+.Последние-новости-right-box
+{
+    margin-left: 40px;
+}
+
+.Последние-новости-right
+{
+    width: 386px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    background: #F6F6F9;
+border-radius: 5px;
+}
+
+.Последние-новости-right-line
+{
+
+    width: 346px;
+height: 4px;
+left: 953px;
+top: 1394px;
+background: #E4E4E4;
+}
+
+.Последние-новости-right h5
+{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #202020;
+}
+
+
+.Последние-новости-right p
+{
+    font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+
+}
+
+.Последние-новости-right small
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #7688A4;
+}
+
+
+
+
+
+
+
+
+
+/* section-attachment------section-attachment--------------section-attachment------------------section-attachment---- */
+
+.section-attachment
+{
+    width: 1200px;
+    height: 214px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.attachment-image-mobile
+{
+    width: 236px;
+    height: 177px;
+    justify-items: end;
+}
+
+.attachment-info
+{
+    width: 526px;
+    height: 85px;  
+}
+
+.attachment-text-top
+{
+    width: 526px;
+    height: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #295093;
+}
+
+.attachment-text-bottom
+{
+    width: 515px;
+    height: 44px;
+    margin: 0;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+
+/* -------site-footer-----------------site-footer-----------------site-footer-----------------site-footer---------- */
+
+.site-footer
+{
+    background: #295093;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.site-footer-top
+{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.site-footer-logo
+{
+    text-decoration: none;
+
+    
+}
+
+.site-logo-background
+{
+    width: 194px;
+height: 38px;
+padding-top: 10px;
+background: #133C82;
+border-radius: 5px;
+
+}
+
+.site-footer-logo h3
+{
+    width: 173px;
+height: 21px;
+margin: auto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.site-foter-text
+{
+    width: 659px;
+height: 19px;
+margin-left: auto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+
+}
+
+.site-footer-telegram-logo
+{
+  
+    display: flex;
+    align-items: center;
+    width: 146px;
+    justify-content: space-between;
+height: 40px;
+padding: 10px 12px;
+text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #295093;
+background-color: white;
+border-radius: 5px;
+}
+
+.site-footer-telegram-logo:hover
+{
+    background: linear-gradient(90deg, red 15.07%, black 85.96%);
+}
+
+.footer-line
+{
+    width: 1200px;
+height: 3px;
+margin-bottom: 20px;
+background: #103a81;
+}
+
+.footer-bottom
+{
+    display: flex;
+    
+    
+
+}
+
+.footer-bottom-left-info
+{
+    width: 370px;
+height: 125px;
+}
+
+.footer-bottom-left-info p
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+.footer-bottom-left-info strong
+{
+    color: #FFFFFF;
+    
+}
+
+.footer-bottom-center
+{
+  
+   
+    list-style: none;
+    margin: 0px;
+    margin-left: 115px;
+}
+
+.footer-bottom-center-item
+{
+    margin: 7px;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+
+}
+
+.footer-bottom-right
+{
+    list-style: none;
+    margin: 0px;
+    margin-left: 115px;
+}
+
+.footer-bottom-right-items
+{
+    margin: 7px;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+.footer-bottom-link
+{
+    color: white;
+    text-decoration: none;
+    
+
+    
+}
